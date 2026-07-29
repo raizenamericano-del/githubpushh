@@ -47,6 +47,8 @@ body {
   }
   .gradient-text {
     @apply bg-gradient-to-r from-indigo-400 via-violet-400 to-cyan-300 bg-clip-text text-transparent;
+    padding-bottom: 0.15em; /* cegah descender (p, g, y, j) kepotong oleh bg-clip-text */
+    margin-bottom: -0.15em;
   }
   .shimmer-line {
     background: linear-gradient(90deg, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.14) 50%, rgba(255,255,255,0.04) 75%);
