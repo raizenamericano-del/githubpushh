@@ -51,12 +51,12 @@ export default function TokenGate({ onSuccess, showToast }) {
           <div className="inline-flex items-center gap-2 rounded-full border border-indigo-400/30 bg-indigo-500/10 px-4 py-1.5 text-xs font-semibold text-indigo-300 animate-glow-pulse">
             ✨ ZIP → Repo dalam hitungan detik
           </div>
-          <h1 className="mt-5 text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05]">
+          <h1 className="mt-5 text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.15]">
             Lempar <span className="gradient-text">ZIP</span>,<br />
             terbitlah{" "}
             <Typewriter
               words={["Repo 🚀", "Project ✨", "Karya 💻", "Portfolio 🔥"]}
-              className="gradient-text"
+              className="gradient-text inline-block pb-[0.15em] -mb-[0.15em]"
             />
           </h1>
           <p className="mt-5 text-lg text-slate-400 max-w-xl mx-auto lg:mx-0">
